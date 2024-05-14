@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <h1>Meu site - Seja bem-vindo(a)</h1>
+    <style>
+        /* Estudar flex box: padding, margin, border, display, block ou inline-block, div... */
 
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center; /*Alinha na horizontal*/
+            align-items: center; /*Alinha na vertical*/
+        }
+
+        div {
+            background-color: green;
+            width: 150px;
+            height: 150px;
+        }
+
+        @media (max-width: 620px) {
+            div {
+                background-color: rgb(155, 95, 215);
+                width: 100px;
+                height: 100px;
+            }
+        }
+        
+    </style>
+</head>
+<body >
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
 </body>
 </html>
